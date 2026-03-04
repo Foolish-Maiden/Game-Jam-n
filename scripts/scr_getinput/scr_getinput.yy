@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"Walking_Directions",
+  "%Name":"scr_getinput",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Walking_Directions",
+  "name":"scr_getinput",
   "parent":{
-    "name":"Scrips",
-    "path":"folders/Scrips.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

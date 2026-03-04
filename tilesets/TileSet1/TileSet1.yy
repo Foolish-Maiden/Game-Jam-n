@@ -12,14 +12,14 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"TileSets",
-    "path":"folders/TileSets.yy",
+    "name":"Tilesets",
+    "path":"folders/Tilesets.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Spr_Ts",
-    "path":"sprites/Spr_Ts/Spr_Ts.yy",
+    "name":"spr_Ts",
+    "path":"sprites/spr_Ts/spr_Ts.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

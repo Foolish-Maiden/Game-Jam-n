@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Player",
+  "%Name":"obj_player",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Player",
+  "name":"obj_player",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Walking_Down",
-    "path":"sprites/Spr_Walking_Down/Spr_Walking_Down.yy",
+    "name":"spr_Walking_Down",
+    "path":"sprites/spr_Walking_Down/spr_Walking_Down.yy",
   },
   "spriteMaskId":null,
   "visible":true,
