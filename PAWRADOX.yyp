@@ -64,7 +64,6 @@
     {"id":{"name":"spr_box_down","path":"sprites/spr_box_down/spr_box_down.yy",},},
     {"id":{"name":"spr_box_editoricon","path":"sprites/spr_box_editoricon/spr_box_editoricon.yy",},},
     {"id":{"name":"spr_box_left","path":"sprites/spr_box_left/spr_box_left.yy",},},
-    {"id":{"name":"spr_box_mask","path":"sprites/spr_box_mask/spr_box_mask.yy",},},
     {"id":{"name":"spr_box_right","path":"sprites/spr_box_right/spr_box_right.yy",},},
     {"id":{"name":"spr_box_up","path":"sprites/spr_box_up/spr_box_up.yy",},},
     {"id":{"name":"spr_cat_mask","path":"sprites/spr_cat_mask/spr_cat_mask.yy",},},

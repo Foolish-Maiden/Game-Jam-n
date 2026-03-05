@@ -37,7 +37,6 @@
     {"name":"approach","order":1,"path":"scripts/approach/approach.yy",},
     {"name":"spr_box_editoricon","order":1,"path":"sprites/spr_box_editoricon/spr_box_editoricon.yy",},
     {"name":"spr_box_left","order":2,"path":"sprites/spr_box_left/spr_box_left.yy",},
-    {"name":"spr_box_mask","order":5,"path":"sprites/spr_box_mask/spr_box_mask.yy",},
     {"name":"spr_box_right","order":3,"path":"sprites/spr_box_right/spr_box_right.yy",},
     {"name":"spr_box_up","order":4,"path":"sprites/spr_box_up/spr_box_up.yy",},
     {"name":"spr_cat_mask","order":13,"path":"sprites/spr_cat_mask/spr_cat_mask.yy",},
