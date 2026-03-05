@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cat_right",
-    "path":"sprites/spr_cat_right/spr_cat_right.yy",
+    "name":"spr_catH",
+    "path":"sprites/spr_catH/spr_catH.yy",
   },
   "spriteMaskId":null,
   "visible":true,

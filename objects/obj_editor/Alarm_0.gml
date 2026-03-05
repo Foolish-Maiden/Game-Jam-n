@@ -4,3 +4,4 @@ if (text_i <= string_length(villain_taunttext))
 	text_i++;
     alarm[0] = textspeed;
 }
+

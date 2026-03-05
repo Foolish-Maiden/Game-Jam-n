@@ -19,7 +19,7 @@ for (var i = 0; i < array_length(ObjectArray); i++)
 
 if (mouse_check_button_pressed(mb_left) && mouse_x > 1366-100 && mouse_x < 1366+100 && mouse_y > 768-100 && mouse_y < 768+100){
 	if (!global.testing){
-		instance_create(0,384,obj_cat);
+		instance_create(0,415,obj_cat);
 		global.testing = true;
 	}
 	else{
