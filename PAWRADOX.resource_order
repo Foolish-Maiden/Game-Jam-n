@@ -30,6 +30,7 @@
     {"name":"obj_flyingcats","order":1,"path":"objects/obj_flyingcats/obj_flyingcats.yy",},
     {"name":"obj_init","order":6,"path":"objects/obj_init/obj_init.yy",},
     {"name":"obj_levelcomplete","order":4,"path":"objects/obj_levelcomplete/obj_levelcomplete.yy",},
+    {"name":"obj_macros","order":7,"path":"objects/obj_macros/obj_macros.yy",},
     {"name":"obj_play_button","order":2,"path":"objects/obj_play_button/obj_play_button.yy",},
     {"name":"obj_solid","order":1,"path":"objects/obj_solid/obj_solid.yy",},
     {"name":"Titlescreen","order":1,"path":"rooms/Titlescreen/Titlescreen.yy",},

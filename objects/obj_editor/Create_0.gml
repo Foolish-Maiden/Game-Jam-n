@@ -19,3 +19,8 @@ function editor_addobject(object, sprite, amount){
 	array_push(ObjectSpriteArray,sprite);
 	array_push(ObjectAmountArray,amount);
 }
+
+end_testing = function() {
+	global.testing = false;
+	instance_destroy(obj_cat)
+}

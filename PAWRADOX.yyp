@@ -53,6 +53,7 @@
     {"id":{"name":"obj_flyingcats","path":"objects/obj_flyingcats/obj_flyingcats.yy",},},
     {"id":{"name":"obj_init","path":"objects/obj_init/obj_init.yy",},},
     {"id":{"name":"obj_levelcomplete","path":"objects/obj_levelcomplete/obj_levelcomplete.yy",},},
+    {"id":{"name":"obj_macros","path":"objects/obj_macros/obj_macros.yy",},},
     {"id":{"name":"obj_play_button","path":"objects/obj_play_button/obj_play_button.yy",},},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
     {"id":{"name":"obj_titlescreen","path":"objects/obj_titlescreen/obj_titlescreen.yy",},},

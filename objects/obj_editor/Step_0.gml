@@ -29,8 +29,11 @@ if (mouse_check_button_pressed(mb_left) && mouse_x > 1366-100 && mouse_x < 1366+
 }
 
 if (global.testing){
-	if (obj_cat.x < 0 || obj_cat.x > room_width || obj_cat.y < 0 || obj_cat.y > room_height)
-		instance_destroy(obj_cat);
+	if instance_exists(obj_cat) {
+		if (obj_cat.x < 0 || obj_cat.x > room_width || obj_cat.y < 0 || obj_cat.y > room_height) {
+			end_testing()
+		}
+	}
 }
 
 if (global.testing)
