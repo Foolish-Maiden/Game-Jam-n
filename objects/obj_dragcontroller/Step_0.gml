@@ -1,7 +1,6 @@
 with (global.dragid){
-	x = mouse_x-32;
-	y = mouse_y-32;
-	move_snap(64,64);
+	x = round((mouse_x - 32) / 64) * 64 + 32;
+	y = round((mouse_y - 32) / 64) * 64 + 32;
 }
 
 if (mouse_check_button_released(mb_left)){

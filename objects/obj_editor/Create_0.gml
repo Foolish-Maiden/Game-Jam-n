@@ -10,10 +10,7 @@ alarm[0] = textspeed;
 drawy = view_get_hport(view_camera[0])-60;
 
 if (room == puzzle_test1){
-	editor_addobject(obj_flingbox_right, spr_box_right, 3);
-	editor_addobject(obj_flingbox_left, spr_box_left, 1);
-	editor_addobject(obj_flingbox_up, spr_box_up, 2);
-	editor_addobject(obj_flingbox_down, spr_box_down, 1);
+	editor_addobject(obj_flingbox, spr_box_editoricon, 3);
 	villain_taunttext = "Ho Ho! Im the bad guy!\nCan you beat my evil\ntest room!?";
 }
 
