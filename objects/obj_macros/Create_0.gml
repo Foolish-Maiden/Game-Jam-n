@@ -1,6 +1,0 @@
-enum FACING {
-	UP,
-	LEFT,
-	RIGHT,
-	DOWN
-}

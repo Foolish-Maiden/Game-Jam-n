@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_catH",
-    "path":"sprites/spr_catH/spr_catH.yy",
+    "name":"spr_cat",
+    "path":"sprites/spr_cat/spr_cat.yy",
   },
   "spriteMaskId":null,
   "visible":true,

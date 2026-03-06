@@ -1,32 +1,21 @@
-// if not dead
-if do_move {
-	// move in current direction
-	if movement_direction = FACING.UP {
-		y -= mainspeed
-	} else if movement_direction = FACING.DOWN {
-		y += mainspeed
-	} else if movement_direction = FACING.LEFT {
-		x -= mainspeed
-		image_xscale = -1
-	} else if movement_direction = FACING.RIGHT {
-		x += mainspeed
-		image_yscale = 1
+if (do_move){
+	switch (movement_direction){
+		case FACING.UP:
+			y -= movespeed;
+		break;
+		
+		case FACING.DOWN:
+			y += movespeed;
+		break;
+		
+		case FACING.LEFT:
+			x -= movespeed;
+			image_xscale = -1;
+		break;
+		
+		case FACING.RIGHT:
+			x += movespeed;
+			image_xscale = 1;
+		break;
 	}
 }
-
-/*
-x += movespeedH;
-y += movespeedV;
-
-if (movespeedH > 0){
-	image_xscale = 1;
-	sprite_index = spr_catH;	
-}
-	
-if (movespeedH < 0){
-	image_xscale = -1;
-	sprite_index = spr_catH;	
-}
-show_debug_message(obj_cat.movespeedH);
-show_debug_message(obj_cat.movespeedV);
-*/
