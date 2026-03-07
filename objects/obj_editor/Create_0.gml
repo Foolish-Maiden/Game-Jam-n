@@ -4,10 +4,13 @@ ObjectAmountArray = [];
 ObjectSpriteArray = [];
 villain_taunttext = "Error!";
 real_taunttext = "";
-textspeed = 3;
+textspeed = 2;
 text_i = 1;
 alarm[0] = textspeed;
 drawy = view_get_hport(view_camera[0])-60;
+VillainHeadEmote = HeadEmote.Normal;
+PlayerHeadEmote = HeadEmote.Normal;
+
 
 if (room == puzzle_test1){
 	editor_addobject(obj_flingbox, spr_box_editoricon, 4);

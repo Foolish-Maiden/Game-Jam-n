@@ -1,4 +1,9 @@
-if instance_position(mouse_x, mouse_y, id) && mouse_check_button(mb_left) || keyboard_check(vk_enter)
-{
-	room_goto(puzzle_test1);
+if (pressed == false && (instance_position(mouse_x, mouse_y, id) && mouse_check_button(mb_left) || keyboard_check(vk_enter))){
+	pressed = true;
+	audio_stop_all();
+	audio_play_sound(sfx_select,0,0);
+	alarm[0] = 1;
 }
+
+if (pressed && !audio_is_playing(sfx_select) && !instance_exists(obj_fadeout))
+	scr_roomchange(puzzle_test1);

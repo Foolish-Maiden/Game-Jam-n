@@ -27,8 +27,8 @@ for (var i = 0; i < array_length(ObjectArray); i += 1){
 
 //draw heads
 draw_rectangle_color(0,0,250,768,c_gray,c_gray,c_gray,c_gray,false);
-draw_sprite(spr_villainhead,0,0,0);
-draw_sprite(spr_playerhead,0,0,550);
+draw_sprite(spr_villainhead,VillainHeadEmote,0,0);
+draw_sprite(spr_playerhead,PlayerHeadEmote,0,550);
 
 draw_text(20,200,real_taunttext);
 

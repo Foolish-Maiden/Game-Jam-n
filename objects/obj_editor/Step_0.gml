@@ -21,10 +21,10 @@ if (mouse_check_button_pressed(mb_left) && mouse_x > 1366-100 && mouse_x < 1366+
 	if (!global.testing){
 		instance_create(0,415,obj_cat);
 		global.testing = true;
+		audio_play_sound(sfx_play,1,0);	
 	}
-	else{
+	else
 		end_testing();
-	}
 }
 
 if (global.testing){
@@ -39,3 +39,8 @@ if (global.testing)
 	drawy = approach(drawy,800,5);
 else
 	drawy = approach(drawy,view_get_hport(view_camera[0])-60,5);
+
+if (global.levelcomplete == true){
+	VillainHeadEmote = HeadEmote.Lose;
+	PlayerHeadEmote = HeadEmote.Win;	
+}

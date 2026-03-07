@@ -1,2 +1,5 @@
 alarm[0] = 1;
-instance_create(650, 450, obj_play_button);
+logo_rotate = 0;
+maxright = 20;
+maxleft = -20;
+rotate_state = "right";
