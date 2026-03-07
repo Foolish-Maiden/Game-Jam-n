@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Boxes",
-    "path":"folders/Sprites/Obstacles/Boxes.yy",
+    "path":"folders/Sprites/Gimmicks/Boxes.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

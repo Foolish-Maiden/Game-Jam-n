@@ -10,8 +10,8 @@
   "name":"obj_fadeout",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Hidden",
+    "path":"folders/Objects/Hidden.yy",
   },
   "parentObjectId":null,
   "persistent":true,

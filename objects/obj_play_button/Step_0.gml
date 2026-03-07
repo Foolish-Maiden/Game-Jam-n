@@ -6,4 +6,4 @@ if (pressed == false && instance_position(mouse_x, mouse_y, id) && mouse_check_b
 }
 
 if (pressed && !audio_is_playing(sfx_select) && !instance_exists(obj_fadeout))
-	scr_roomchange(puzzle_test1);
+	room_fadeto(Levelselect);

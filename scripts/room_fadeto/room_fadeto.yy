@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_roomchange",
+  "%Name":"room_fadeto",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_roomchange",
+  "name":"room_fadeto",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
