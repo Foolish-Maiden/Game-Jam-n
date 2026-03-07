@@ -1,4 +1,4 @@
-if (pressed == false && (instance_position(mouse_x, mouse_y, id) && mouse_check_button(mb_left) || keyboard_check(vk_enter))){
+if (pressed == false && instance_position(mouse_x, mouse_y, id) && mouse_check_button(mb_left)){
 	pressed = true;
 	audio_stop_all();
 	audio_play_sound(sfx_select,0,0);
