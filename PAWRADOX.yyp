@@ -94,6 +94,7 @@
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},},
     {"id":{"name":"spr_tempbg","path":"sprites/spr_tempbg/spr_tempbg.yy",},},
     {"id":{"name":"spr_villainhead","path":"sprites/spr_villainhead/spr_villainhead.yy",},},
+    {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

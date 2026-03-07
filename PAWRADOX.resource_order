@@ -61,5 +61,6 @@
     {"name":"spr_smallpoof","order":19,"path":"sprites/spr_smallpoof/spr_smallpoof.yy",},
     {"name":"spr_solid","order":14,"path":"sprites/spr_solid/spr_solid.yy",},
     {"name":"spr_tempbg","order":15,"path":"sprites/spr_tempbg/spr_tempbg.yy",},
+    {"name":"Sprite17","order":21,"path":"sprites/Sprite17/Sprite17.yy",},
   ],
 }

@@ -1,17 +1,3 @@
-//draw grid
-draw_set_halign(fa_left);
-draw_set_font(fnt_basic);
-draw_set_valign(fa_top);
-draw_set_color(c_white);
-draw_set_alpha(0.3);
-
-for (var gridX_i = 0; gridX_i < 100; gridX_i += 1)
-	draw_line(0,0+gridX_i*gridsize,1366,0+gridX_i*gridsize);
-
-for (var gridY_i = 0; gridY_i < 100; gridY_i += 1)
-	draw_line(0+gridY_i*gridsize,0,0+gridY_i*gridsize,768);
-
-//reset draw alpha
 draw_set_alpha(1);
 
 
