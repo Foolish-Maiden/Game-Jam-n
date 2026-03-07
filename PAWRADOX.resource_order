@@ -56,6 +56,7 @@
     {"name":"spr_box_editoricon","order":1,"path":"sprites/spr_box_editoricon/spr_box_editoricon.yy",},
     {"name":"spr_box_hint","order":5,"path":"sprites/spr_box_hint/spr_box_hint.yy",},
     {"name":"spr_box_up","order":4,"path":"sprites/spr_box_up/spr_box_up.yy",},
+    {"name":"spr_click_hint","order":18,"path":"sprites/spr_click_hint/spr_click_hint.yy",},
     {"name":"spr_direction_editoricon","order":1,"path":"sprites/spr_direction_editoricon/spr_direction_editoricon.yy",},
     {"name":"spr_editor_start","order":2,"path":"sprites/spr_editor_start/spr_editor_start.yy",},
     {"name":"spr_gridbg","order":13,"path":"sprites/spr_gridbg/spr_gridbg.yy",},

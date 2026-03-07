@@ -50,51 +50,44 @@ if (global.levelcomplete == true){
 	PlayerHeadEmote = HeadEmote.Win;	
 }
 
-#region tutorial stuff... (crappy code!!)
-if (room == puzzle_tutorial1){
-	if (instance_exists(obj_flingbox) && (villain_taunttext == villain_taunttext3 || villain_taunttext == villain_taunttext99) && global.dragid == noone){
-		if (obj_flingbox.x == obj_box_tuthint.x + 32 && obj_flingbox.y == obj_box_tuthint.y + 32){
-			villain_taunttext = villain_taunttext100;
-			text_i = 1;
-			alarm[0] = 1;
-			real_taunttext = "";
-			exit;
-		}
-		
-		if (obj_flingbox.x != obj_box_tuthint.x || obj_flingbox.y != obj_box_tuthint.y){
-			villain_taunttext = villain_taunttext99;
-			text_i = 1;
-			alarm[0] = 1;
-			real_taunttext = "";
-			instance_destroy(obj_flingbox);
-			ObjectAmountArray[0] += 1;
-		}
-	}
-	
-	if (mouse_check_button_pressed(mb_left) && text_i > string_length(villain_taunttext)){
-		if (villain_taunttext == villain_taunttext1){
-			villain_taunttext = villain_taunttext2;
-			text_i = 1;
-			alarm[0] = 1;
-			real_taunttext = "";
-			exit;
-		}
+#region tutorial stuff
+if (room != puzzle_tutorial1)
+	exit;
 
-		if (villain_taunttext == villain_taunttext2){
-			villain_taunttext = villain_taunttext3;
-			text_i = 1;
-			alarm[0] = 1;
-			real_taunttext = "";
+if (instance_exists(obj_flingbox) && (villain_taunttext == villain_taunttext3 || villain_taunttext == villain_taunttext99) && global.dragid == noone){
+	var target_x = obj_box_tuthint.x + 32;
+	var target_y = obj_box_tuthint.y + 32;
+
+	if (obj_flingbox.x == target_x && obj_flingbox.y == target_y){
+		set_taunt(villain_taunttext100);
+		exit;
+	}
+	else{
+		set_taunt(villain_taunttext99);
+		instance_destroy(obj_flingbox);
+		ObjectAmountArray[0] += 1;
+		exit;
+	}
+}
+
+// Handle mouse click dialogue progression
+if (mouse_check_button_pressed(mb_left) && text_i > string_length(villain_taunttext)) {
+	switch (villain_taunttext) {
+		case villain_taunttext1:
+			set_taunt(villain_taunttext2);
 			exit;
-		}
 		
-		if (villain_taunttext == villain_taunttext100){
-			villain_taunttext = villain_taunttext4;
-			text_i = 1;
-			alarm[0] = 1;
-			real_taunttext = "";
+		case villain_taunttext2:
+			set_taunt(villain_taunttext3);
 			exit;
-		}
+		
+		case villain_taunttext100:
+			set_taunt(villain_taunttext4);
+			exit;
+		
+		case villain_taunttextlevel1_to_2:
+			room_fadeto(Levelselect);
+			exit;
 	}
 }
 #endregion

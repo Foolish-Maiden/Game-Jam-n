@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_click_hint",
+    "path":"sprites/spr_click_hint/spr_click_hint.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

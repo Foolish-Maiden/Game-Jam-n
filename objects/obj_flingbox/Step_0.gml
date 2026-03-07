@@ -1,5 +1,5 @@
 //Mouse Interactions
-if (instance_position(mouse_x, mouse_y, id) && global.testing == false){
+if (instance_position(mouse_x, mouse_y, id) && global.testing == false && room != puzzle_tutorial1){
 	//Dragging
 	if (mouse_check_button_pressed(mb_left)){
 		global.dragid = id;

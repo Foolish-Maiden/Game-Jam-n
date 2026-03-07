@@ -89,6 +89,7 @@
     {"id":{"name":"spr_box_up","path":"sprites/spr_box_up/spr_box_up.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_cat","path":"sprites/spr_cat/spr_cat.yy",},},
+    {"id":{"name":"spr_click_hint","path":"sprites/spr_click_hint/spr_click_hint.yy",},},
     {"id":{"name":"spr_direction_editoricon","path":"sprites/spr_direction_editoricon/spr_direction_editoricon.yy",},},
     {"id":{"name":"spr_editor_start","path":"sprites/spr_editor_start/spr_editor_start.yy",},},
     {"id":{"name":"spr_gridbg","path":"sprites/spr_gridbg/spr_gridbg.yy",},},
