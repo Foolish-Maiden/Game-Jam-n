@@ -16,9 +16,10 @@ draw_sprite(spr_villainhead,VillainHeadEmote,0,0);
 draw_sprite(spr_playerhead,PlayerHeadEmote,0,550);
 draw_text(20,200,real_taunttext);
 
-if (text_i > string_length(villain_taunttext) && villain_taunttext != villain_taunttext99 && villain_taunttext != villain_taunttext4 && villain_taunttext != villain_taunttext3)
-	draw_sprite(spr_click_hint, image_index, 200, 500)
-
+if (room == puzzle_tutorial1 || room == puzzle_tutorial2){
+	if (text_i > string_length(villain_taunttext) && villain_taunttext != villain_taunttext99 && villain_taunttext != villain_taunttext4 && villain_taunttext != villain_taunttext3)
+		draw_sprite(spr_click_hint, image_index, 200, 500)
+}
 
 //draw play button
 draw_sprite(spr_editor_start,global.testing,1366,768);

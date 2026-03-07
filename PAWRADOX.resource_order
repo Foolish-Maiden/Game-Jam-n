@@ -45,6 +45,7 @@
     {"name":"Init","order":2,"path":"rooms/Init/Init.yy",},
     {"name":"Levelselect","order":3,"path":"rooms/Levelselect/Levelselect.yy",},
     {"name":"puzzle_tutorial1","order":1,"path":"rooms/puzzle_tutorial1/puzzle_tutorial1.yy",},
+    {"name":"puzzle_tutorial2","order":2,"path":"rooms/puzzle_tutorial2/puzzle_tutorial2.yy",},
     {"name":"Titlescreen","order":1,"path":"rooms/Titlescreen/Titlescreen.yy",},
     {"name":"approach","order":1,"path":"scripts/approach/approach.yy",},
     {"name":"room_fadeto","order":2,"path":"scripts/room_fadeto/room_fadeto.yy",},

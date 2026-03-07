@@ -73,6 +73,7 @@
     {"id":{"name":"Levelselect","path":"rooms/Levelselect/Levelselect.yy",},},
     {"id":{"name":"puzzle_test1","path":"rooms/puzzle_test1/puzzle_test1.yy",},},
     {"id":{"name":"puzzle_tutorial1","path":"rooms/puzzle_tutorial1/puzzle_tutorial1.yy",},},
+    {"id":{"name":"puzzle_tutorial2","path":"rooms/puzzle_tutorial2/puzzle_tutorial2.yy",},},
     {"id":{"name":"Titlescreen","path":"rooms/Titlescreen/Titlescreen.yy",},},
     {"id":{"name":"approach","path":"scripts/approach/approach.yy",},},
     {"id":{"name":"instance_create","path":"scripts/instance_create/instance_create.yy",},},
@@ -115,6 +116,7 @@
     {"roomId":{"name":"puzzle_test1","path":"rooms/puzzle_test1/puzzle_test1.yy",},},
     {"roomId":{"name":"Levelselect","path":"rooms/Levelselect/Levelselect.yy",},},
     {"roomId":{"name":"puzzle_tutorial1","path":"rooms/puzzle_tutorial1/puzzle_tutorial1.yy",},},
+    {"roomId":{"name":"puzzle_tutorial2","path":"rooms/puzzle_tutorial2/puzzle_tutorial2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

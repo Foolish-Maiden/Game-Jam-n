@@ -20,6 +20,7 @@ villain_taunttext5 = "";
 villain_taunttext99 = "";
 villain_taunttext100 = "";
 villain_taunttextlevel1_to_2 = "";
+villain_taunttextlevel2_to_3 = "";
 #endregion
 
 if (room == puzzle_test1){
@@ -36,6 +37,17 @@ if (room == puzzle_tutorial1){
 	villain_taunttext100 = "Corrent you smart";
 	villain_taunttext4 = "Now press the play\nbutton"
 	villain_taunttextlevel1_to_2 = "TRAINING 1 COMPLETE\nNEXT COUSE..."
+}
+
+if (room == puzzle_tutorial2){
+	editor_addobject(obj_flingbox, spr_box_editoricon, 1);
+	villain_taunttext1 = "Rotating";
+	villain_taunttext2 = "You may need to\nrotate sometimes!!";
+	villain_taunttext3 = "Try placing and\nright clicking the\nbox to face down";
+	villain_taunttext99 = "Wrong you dumbass";
+	villain_taunttext100 = "Corrent you smart";
+	villain_taunttext4 = "Now press the play\nbutton"
+	villain_taunttextlevel2_to_3 = "TRAINING 2 COMPLETE\nFINISHING..."
 }
 
 

@@ -10,6 +10,9 @@ for (var i = 0; i < array_length(ObjectArray); i++)
 
 	if (mouse_check_button_pressed(mb_left) && ObjectAmountArray[i] != 0 && mouse_x > left && mouse_x < right && mouse_y > top && mouse_y < bottom)
 	{
+		if ((room == puzzle_tutorial1 || room == puzzle_tutorial2) && obj_editor.villain_taunttext != obj_editor.villain_taunttext3 && obj_editor.villain_taunttext != obj_editor.villain_taunttext99)
+			exit;
+			
 		var object = instance_create(mouse_x, mouse_y, ObjectArray[i]);
 		global.dragid = object.id;
 		ObjectAmountArray[i] -= 1;
@@ -18,16 +21,17 @@ for (var i = 0; i < array_length(ObjectArray); i++)
 }
 
 if (mouse_check_button_pressed(mb_left) && mouse_x > 1366-100 && mouse_x < 1366+100 && mouse_y > 768-100 && mouse_y < 768+100){
-	if (room == puzzle_tutorial1 && villain_taunttext != villain_taunttext4)
+	if ((room == puzzle_tutorial1 || room == puzzle_tutorial2) && villain_taunttext != villain_taunttext4)
 		exit;
-		
+
+			
 	if (!global.testing){
 		instance_create(obj_startpoint.x+32,obj_startpoint.y+32,obj_cat);
 		global.testing = true;
 		audio_play_sound(sfx_play,1,0);
 	}
 	else{
-		if (room != puzzle_tutorial1)
+		if (room != puzzle_tutorial1 && room != puzzle_tutorial2)
 			end_testing();
 	}
 }
@@ -51,7 +55,7 @@ if (global.levelcomplete == true){
 }
 
 #region tutorial stuff
-if (room != puzzle_tutorial1)
+if (room != puzzle_tutorial1 && room != puzzle_tutorial2)
 	exit;
 
 if (instance_exists(obj_flingbox) && (villain_taunttext == villain_taunttext3 || villain_taunttext == villain_taunttext99) && global.dragid == noone){
@@ -59,6 +63,9 @@ if (instance_exists(obj_flingbox) && (villain_taunttext == villain_taunttext3 ||
 	var target_y = obj_box_tuthint.y + 32;
 
 	if (obj_flingbox.x == target_x && obj_flingbox.y == target_y){
+		if (room == puzzle_tutorial2 && obj_flingbox.box_direction != FACING.DOWN)
+			exit;
+			
 		set_taunt(villain_taunttext100);
 		exit;
 	}
@@ -86,6 +93,10 @@ if (mouse_check_button_pressed(mb_left) && text_i > string_length(villain_tauntt
 			exit;
 		
 		case villain_taunttextlevel1_to_2:
+			room_fadeto(puzzle_tutorial2);
+			exit;		
+			
+		case villain_taunttextlevel2_to_3:
 			room_fadeto(Levelselect);
 			exit;
 	}
