@@ -1,3 +1,7 @@
+//reset globals
+global.levelcomplete = false;
+global.testing = false;
+
 gridsize = 64;
 ObjectArray = [];
 ObjectAmountArray = [];
