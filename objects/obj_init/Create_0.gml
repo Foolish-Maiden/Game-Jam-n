@@ -6,3 +6,5 @@ enum FACING {
 	RIGHT,
 	DOWN
 }
+
+room_goto(Titlescreen);
