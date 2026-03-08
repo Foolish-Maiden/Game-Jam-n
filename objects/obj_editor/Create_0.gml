@@ -49,7 +49,7 @@ if (room == puzzle_tutorial2){
 	villain_taunttext1 = "Rotating";
 	villain_taunttext2 = "You may need to\nrotate sometimes!!";
 	villain_taunttext3 = "Try placing and\nright clicking the\nbox to face down";
-	villain_taunttext99 = "Wrong you dumbass";
+	villain_taunttext99 = "Wrong you dumbass.\nPlace and right\nclick the box to\nface down";
 	villain_taunttext100 = "Corrent you smart";
 	villain_taunttext4 = "Now press the play\nbutton";
 	villain_taunttextlevel2_to_3 = "TRAINING COMPLETE\nGoodbye!";
