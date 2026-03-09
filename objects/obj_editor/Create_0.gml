@@ -31,6 +31,7 @@ villain_taunttextlevel2_to_3 = "";
 if (room == roo_puzzle_test1){
 	editor_addobject(obj_flingbox, spr_box_editoricon, 4);
 	editor_addobject(obj_clonebox, spr_clonebox_editoricon, 4);
+	editor_addobject(obj_pushtile, spr_push_editoricon, 4);
 	villain_taunttext1 = "Ho Ho! Im the bad guy!\nCan you beat my evil\ntest room!?";
 }
 
