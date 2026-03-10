@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Boxes",
-    "path":"folders/Sprites/Level Elements/Boxes.yy",
+    "name":"Movables",
+    "path":"folders/Sprites/Level Elements/Movables.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

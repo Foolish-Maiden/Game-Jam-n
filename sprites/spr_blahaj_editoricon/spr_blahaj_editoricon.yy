@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Blahaj",
-    "path":"folders/Sprites/Level Elements/Blahaj.yy",
+    "name":"Icons",
+    "path":"folders/Sprites/Editor/Icons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

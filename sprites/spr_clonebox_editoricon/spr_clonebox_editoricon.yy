@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Clone boxes",
-    "path":"folders/Sprites/Level Elements/Clone boxes.yy",
+    "name":"Icons",
+    "path":"folders/Sprites/Editor/Icons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

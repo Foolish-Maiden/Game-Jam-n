@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button",
+  "%Name":"obj_switch",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button",
+  "name":"obj_switch",
   "overriddenProperties":[],
   "parent":{
     "name":"Level Elements",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button",
-    "path":"sprites/spr_button/spr_button.yy",
+    "name":"spr_switch",
+    "path":"sprites/spr_switch/spr_switch.yy",
   },
   "spriteMaskId":null,
   "visible":true,

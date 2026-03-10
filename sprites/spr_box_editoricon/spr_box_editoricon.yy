@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Boxes",
-    "path":"folders/Sprites/Level Elements/Boxes.yy",
+    "name":"Icons",
+    "path":"folders/Sprites/Editor/Icons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

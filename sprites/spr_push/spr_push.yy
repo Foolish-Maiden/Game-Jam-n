@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Push Tile",
-    "path":"folders/Sprites/Level Elements/Push Tile.yy",
+    "name":"Movables",
+    "path":"folders/Sprites/Level Elements/Movables.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

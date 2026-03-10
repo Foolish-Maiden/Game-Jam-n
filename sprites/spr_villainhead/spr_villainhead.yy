@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"Villain",
-    "path":"folders/Sprites/Heads/Villain.yy",
+    "path":"folders/Sprites/Editor/Heads/Villain.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

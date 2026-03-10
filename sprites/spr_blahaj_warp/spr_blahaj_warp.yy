@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Blahaj",
-    "path":"folders/Sprites/Level Elements/Blahaj.yy",
+    "name":"Movables",
+    "path":"folders/Sprites/Level Elements/Movables.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

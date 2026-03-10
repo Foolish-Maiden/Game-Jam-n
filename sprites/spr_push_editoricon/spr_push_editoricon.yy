@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Push Tile",
-    "path":"folders/Sprites/Level Elements/Push Tile.yy",
+    "name":"Icons",
+    "path":"folders/Sprites/Editor/Icons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
