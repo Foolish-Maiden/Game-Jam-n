@@ -11,8 +11,8 @@
   "name":"obj_editor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Level Elements",
-    "path":"folders/Objects/Level Elements.yy",
+    "name":"Hidden",
+    "path":"folders/Objects/Hidden.yy",
   },
   "parentObjectId":null,
   "persistent":false,

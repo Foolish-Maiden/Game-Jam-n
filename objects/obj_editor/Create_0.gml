@@ -2,6 +2,10 @@
 global.levelcomplete = false;
 global.testing = false;
 
+// create required objects
+instance_create_layer(x, y, "Instances", obj_switch_color_manager)
+
+// variables
 gridsize = 64;
 ObjectArray = [];
 ObjectAmountArray = [];
