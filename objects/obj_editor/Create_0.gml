@@ -36,6 +36,8 @@ if (room == room_puzzle_test1){
 	editor_addobject(obj_flingbox, spr_box_editoricon, 5);
 	editor_addobject(obj_clonebox, spr_clonebox_editoricon, 4);
 	editor_addobject(obj_pushtile, spr_push_editoricon, 4);
+	editor_addobject(obj_spinnerbox_left, spr_spinnerbox_left_editoricon, 4);
+	editor_addobject(obj_spinnerbox_right, spr_spinnerbox_right_editoricon, 4);
 	villain_taunttext1 = "Ho Ho! Im the bad guy!\nCan you beat my evil\ntest room!?";
 }
 

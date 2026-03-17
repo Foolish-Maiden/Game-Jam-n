@@ -11,28 +11,7 @@ if (point_in_rectangle(mouse_x, mouse_y, x - 32, y - 32, x + 32, y + 32) && glob
 	
 	//Rotation
 	if (mouse_check_button_pressed(mb_right)){
-		if (facing = FACING.UP){
-			facing = FACING.RIGHT;
-			image_angle = 270;
-			exit;
-		}
-		
-		if (facing = FACING.DOWN){
-			facing = FACING.LEFT;
-			image_angle = 90;
-			exit;
-		}
-		
-		if (facing = FACING.LEFT){
-			facing = FACING.UP;
-			image_angle = 0;
-			exit;
-		} 
-		if (facing = FACING.RIGHT){
-			facing = FACING.DOWN;
-			image_angle = 180;
-			exit;
-		}
+		rotate()
 	}
 }
 
