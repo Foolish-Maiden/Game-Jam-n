@@ -10,8 +10,8 @@
   "name":"obj_levelselect",
   "overriddenProperties":[],
   "parent":{
-    "name":"Other (lazy to sort)",
-    "path":"folders/Objects/Other (lazy to sort).yy",
+    "name":"Hidden",
+    "path":"folders/Objects/Hidden.yy",
   },
   "parentObjectId":null,
   "persistent":false,

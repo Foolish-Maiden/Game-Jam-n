@@ -1,9 +1,9 @@
 if (fademode == "fadeout"){
-	fadealpha+=0.1;	
+	fadealpha += fadespeed;	
 }
 
 if (fademode == "fadein"){
-	fadealpha-=0.1;	
+	fadealpha -= fadespeed;	
 }
 
 if (fadealpha >= 2){
