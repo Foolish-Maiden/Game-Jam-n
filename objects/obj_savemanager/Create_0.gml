@@ -19,7 +19,7 @@ audio_master_gain(global.volume/100);
 
 function scr_savelevel_progress(){
 	var roomname = room_get_name(room);
-	var puzzlenumber = string_char_at(roomname, string_length(roomname));
+	var puzzlenumber = string_replace_all(roomname, "room_puzzle_", "");
 	
 	ini_open("SaveFile.ini")
 	global.LevelDoneStatus[puzzlenumber - 1] = 1;

@@ -1,3 +1,5 @@
+depth = -999;
+
 //reset globals
 global.levelcomplete = false;
 global.testing = false;
@@ -71,6 +73,28 @@ if (room == room_puzzle_6){
 	villain_taunttext1 = "I built some machines to\nbring the boxes around for\nme, but for some reason\nthey just rotate 90 degrees\nwhenever i kick them...\nanyway, this room doesn't\nhave enough boxes!\nHAHAHAHA";
 }
 
+if (room == room_puzzle_7){
+	editor_addobject(obj_flingbox, spr_box_editoricon, 2);
+	editor_addobject(obj_spinnerbox_left, spr_spinnerbox_right_editoricon, 2);
+}
+
+if (room == room_puzzle_8){
+	editor_addobject(obj_flingbox, spr_box_editoricon, 2);
+	editor_addobject(obj_spinnerbox_right, spr_spinnerbox_right_editoricon, 1);
+}
+
+if (room == room_puzzle_9){
+	editor_addobject(obj_flingbox, spr_box_editoricon, 2);
+	editor_addobject(obj_spinnerbox_right, spr_spinnerbox_right_editoricon, 1);
+}
+if (room == room_puzzle_10){
+	editor_addobject(obj_flingbox, spr_box_editoricon, 4);
+	editor_addobject(obj_spinnerbox_right, spr_spinnerbox_right_editoricon, 1);
+	editor_addobject(obj_spinnerbox_left, spr_spinnerbox_right_editoricon, 1);
+}
+
+
+//tutorial
 if (room == room_puzzle_tutorial1){
 	editor_addobject(obj_flingbox, spr_box_editoricon, 1);
 	villain_taunttext1 = "Welcome to training\nsoftware 1.3.2!";

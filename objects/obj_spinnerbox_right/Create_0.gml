@@ -10,3 +10,4 @@ spin = false
 spin_counter = 0
 spin_timer = 0
 spin_length = 20
+image_alpha = 0;
