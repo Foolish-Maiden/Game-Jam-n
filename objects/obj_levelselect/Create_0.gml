@@ -18,10 +18,10 @@ add_level(room_puzzle_7, spr_placeholder_icon, "Level 7");
 add_level(room_puzzle_8, spr_placeholder_icon, "Level 8");
 add_level(room_puzzle_9, spr_placeholder_icon, "Level 9");
 add_level(room_puzzle_10, spr_placeholder_icon, "Level 10");
+add_level(room_puzzle_11, spr_placeholder_icon, "Level 11");
+add_level(room_puzzle_12, spr_placeholder_icon, "Level 12");
 
 //not added
-add_level(room_levelselect, spr_placeholder_icon, "Level 11");
-add_level(room_levelselect, spr_placeholder_icon, "Level 12");
 add_level(room_levelselect, spr_placeholder_icon, "Level 13");
 add_level(room_levelselect, spr_placeholder_icon, "Level 14");
 add_level(room_levelselect, spr_placeholder_icon, "Level 15");

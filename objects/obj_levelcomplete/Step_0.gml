@@ -5,8 +5,7 @@ image_alpha = true_alpha;
 
 if (place_meeting(x, y, obj_cat) && opened){
     global.levelcomplete = true;
-	instance_destroy(obj_cat);
-	
+			
 	if (room == room_puzzle_tutorial1 || room == room_puzzle_tutorial2){
 		if (room == room_puzzle_tutorial1)
 			obj_editor.current_villain_taunttext = obj_editor.villain_taunttextlevel1_to_2;
@@ -22,7 +21,14 @@ if (place_meeting(x, y, obj_cat) && opened){
 			
 	if (!audio_is_playing(sfx_levelcomplete)){
 		audio_play_sound(sfx_levelcomplete, 1, 0);
-		obj_savemanager.scr_savelevel_progress();
+		
+		if (room != room_puzzle_tutorial1 && room != room_puzzle_tutorial2 && room != room_puzzle_test1)
+			obj_savemanager.scr_savelevel_progress();
+
+		with (obj_cat){
+			instance_create(x,y,obj_poof);
+			instance_destroy();
+		}
 	}
 
 	leveloutro = true;

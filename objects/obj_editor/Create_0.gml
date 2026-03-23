@@ -87,10 +87,15 @@ if (room == room_puzzle_9){
 	editor_addobject(obj_flingbox, spr_box_editoricon, 2);
 	editor_addobject(obj_spinnerbox_right, spr_spinnerbox_right_editoricon, 1);
 }
+
 if (room == room_puzzle_10){
 	editor_addobject(obj_flingbox, spr_box_editoricon, 4);
 	editor_addobject(obj_spinnerbox_right, spr_spinnerbox_right_editoricon, 1);
 	editor_addobject(obj_spinnerbox_left, spr_spinnerbox_right_editoricon, 1);
+}
+
+if (room == room_puzzle_11){
+	editor_addobject(obj_clonebox, spr_clonebox_editoricon, 1);
 }
 
 
