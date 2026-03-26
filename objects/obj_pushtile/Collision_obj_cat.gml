@@ -3,7 +3,6 @@ if (other.movement_direction == FACING.LEFT || other.movement_direction == FACIN
 		other.x = x;
 		other.y = y - obj_editor.gridsize;
 		if (!instance_position(x, y, obj_poof)){
-			obj_editor.boxtouched_count++;
 	        instance_create(x, y, obj_poof);
 			audio_play_sound(sfx_poof,1,0);	
 		}
@@ -13,7 +12,6 @@ if (other.movement_direction == FACING.LEFT || other.movement_direction == FACIN
 		other.x = x;
 		other.y = y + obj_editor.gridsize;
 		if (!instance_position(x, y, obj_poof)){
-			obj_editor.boxtouched_count++;
 	        instance_create(x, y, obj_poof);
 			audio_play_sound(sfx_poof,1,0);	
 		}
@@ -23,7 +21,6 @@ if (other.movement_direction == FACING.LEFT || other.movement_direction == FACIN
 		other.y = y;
 		other.x = x - obj_editor.gridsize;
 		if (!instance_position(x, y, obj_poof)){
-			obj_editor.boxtouched_count++;
 	        instance_create(x, y, obj_poof);
 			audio_play_sound(sfx_poof,1,0);	
 		}
@@ -33,7 +30,6 @@ if (other.movement_direction == FACING.LEFT || other.movement_direction == FACIN
 		other.y = y;
 		other.x = x + obj_editor.gridsize;
 		if (!instance_position(x, y, obj_poof)){
-			obj_editor.boxtouched_count++;
 	        instance_create(x, y, obj_poof);
 			audio_play_sound(sfx_poof,1,0);	
 		}

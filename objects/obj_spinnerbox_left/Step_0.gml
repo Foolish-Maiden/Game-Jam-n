@@ -17,7 +17,6 @@ var collided_with = instance_place(x, y, obj_cat)
 if (collided_with != noone) {
 	if !colliding_with_cat {
 		colliding_with_cat = true
-		
 		collided_with.movement_direction = facing;
 		
 		if (facing = FACING.UP) {
@@ -38,7 +37,6 @@ if (collided_with != noone) {
 		spin = true
 
 	    if (!instance_position(x, y, obj_poof)){
-			obj_editor.boxtouched_count++;
 	        instance_create(x, y, obj_poof);
 			audio_play_sound(sfx_poof,1,0);	
 		}

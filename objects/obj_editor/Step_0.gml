@@ -39,7 +39,9 @@ if (mouse_check_button_pressed(mb_left) && mouse_x > 1366-100 && mouse_x < 1366+
 
 			
 	if (!global.testing){
-		instance_create(obj_startpoint.x+32,obj_startpoint.y+32,obj_cat);
+		with instance_create(obj_startpoint.x,obj_startpoint.y,obj_cat)
+			movement_direction = obj_startpoint.shoot_angle;
+		
 		global.testing = true;
 		audio_play_sound(sfx_play,1,0);
 	}

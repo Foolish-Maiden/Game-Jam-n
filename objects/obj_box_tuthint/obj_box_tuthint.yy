@@ -12,10 +12,7 @@
     "name":"Immovables",
     "path":"folders/Objects/Level Elements/Immovables.yy",
   },
-  "parentObjectId":{
-    "name":"obj_par_block_placements",
-    "path":"objects/obj_par_block_placements/obj_par_block_placements.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
