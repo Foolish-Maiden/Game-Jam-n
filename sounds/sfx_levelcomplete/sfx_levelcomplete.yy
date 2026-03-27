@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.98133785,
+  "duration":1.59,
   "exportDir":"",
   "name":"sfx_levelcomplete",
   "parent":{

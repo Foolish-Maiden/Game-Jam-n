@@ -1,6 +1,6 @@
 var healthbar_x = 100;
 var healthbar_y = 700;
-
+draw_set_colour(c_white);
 draw_text(healthbar_x+30,healthbar_y-20,"Volume " + string(global.volume) + "%");
 draw_healthbar(healthbar_x, healthbar_y, healthbar_x+300, healthbar_y+50, global.volume, c_black,c_blue,c_red,0,true,false);
 

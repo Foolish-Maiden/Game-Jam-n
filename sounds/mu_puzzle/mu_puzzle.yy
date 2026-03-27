@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":69.04163,
+  "duration":164.72816,
   "exportDir":"",
   "name":"mu_puzzle",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mu_puzzle.ogg",
+  "soundFile":"mu_puzzle.mp3",
   "volume":1.0,
 }
