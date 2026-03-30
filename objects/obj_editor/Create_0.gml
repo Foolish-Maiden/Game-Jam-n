@@ -60,11 +60,12 @@ if (room == room_puzzle_3){
 
 if (room == room_puzzle_4){
 	editor_addobject(obj_flingbox, spr_box_editoricon, 2);
-	villain_taunttext1 = "You've done very well...\n SO FACE MY LAZERS!";
+	villain_taunttext1 = "You've done very well...\n as a reward take\nthese lazers!";
 }
 
 if (room == room_puzzle_5){
 	editor_addobject(obj_flingbox, spr_box_editoricon, 5);
+	villain_taunttext1 = "Maybe more switches shall\nstop you!";
 }
 
 if (room == room_puzzle_6){

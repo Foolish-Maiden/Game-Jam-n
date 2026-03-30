@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":22.788185,
+  "duration":142.70694,
   "exportDir":"",
   "name":"mu_titlescreen",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mu_titlescreen.ogg",
+  "soundFile":"mu_titlescreen.mp3",
   "volume":1.0,
 }

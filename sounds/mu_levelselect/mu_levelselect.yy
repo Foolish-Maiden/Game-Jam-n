@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":161.1755,
+  "duration":149.70775,
   "exportDir":"",
   "name":"mu_levelselect",
   "parent":{

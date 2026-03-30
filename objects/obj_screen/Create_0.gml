@@ -5,8 +5,10 @@ yy = 0;
 drawalpha = 0;
 
 function do_pausestuff(){
-	if (global.paused)
+	if (global.paused){
 	    global.paused = false;
+		instance_destroy(obj_button_exitlevel);	
+	}
 	else{
 		global.paused = true;
 		drawit = true;

@@ -1,6 +1,9 @@
 name_array = [];
 type_array = [];
 
+//quick hack lmao
+alarm[0] = 500;
+
 add_section("Director");
 add_credit("FOOLISH");
 
@@ -10,13 +13,10 @@ add_credit("Torent");
 
 add_section("Art");
 add_credit("Purtangle");
+add_credit("Sporemasterr");
 
 add_section("Music");
-add_credit("Purtangle");
-
-add_section("Voice Acting");
-add_credit("Villain - dabestestboi");
-add_credit("Agent kitty - I DONT KNOWS");
+add_credit("Towball's Crossing");
 
 add_section("And...");
 add_credit("You!");

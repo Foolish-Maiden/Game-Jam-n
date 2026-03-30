@@ -36,8 +36,10 @@ if (place_meeting(x, y, obj_cat) && opened){
 
 if (leveloutro && !audio_is_playing(sfx_levelcomplete) && room != room_puzzle_tutorial1 && room != room_puzzle_tutorial2){
 	if (!instance_exists(obj_button_nextlevel))
-		instance_create(room_width/2-200, 400, obj_button_nextlevel)
+		instance_create(room_width/2+200, 200, obj_button_nextlevel)
 		
-	if (!instance_exists(obj_button_exitlevel))
-		instance_create(room_width/2-500, 400, obj_button_exitlevel)
+	if (!instance_exists(obj_button_exitlevel)){
+		instance_create(room_width/2-400, 200, obj_button_exitlevel)
+		instance_create(x,y,obj_endlevel_bg);	
+	}
 }
