@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button",
-    "path":"sprites/spr_button/spr_button.yy",
+    "name":"spr_nextlevel",
+    "path":"sprites/spr_nextlevel/spr_nextlevel.yy",
   },
   "spriteMaskId":null,
   "visible":true,
