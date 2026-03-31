@@ -57,7 +57,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.2.212",
   },
   "name":"pawradox",
   "resources":[
@@ -82,6 +82,7 @@
     {"id":{"name":"obj_fadeout","path":"objects/obj_fadeout/obj_fadeout.yy",},},
     {"id":{"name":"obj_flingbox","path":"objects/obj_flingbox/obj_flingbox.yy",},},
     {"id":{"name":"obj_flyingcats","path":"objects/obj_flyingcats/obj_flyingcats.yy",},},
+    {"id":{"name":"obj_fullscreen","path":"objects/obj_fullscreen/obj_fullscreen.yy",},},
     {"id":{"name":"obj_init","path":"objects/obj_init/obj_init.yy",},},
     {"id":{"name":"obj_lazer_wall","path":"objects/obj_lazer_wall/obj_lazer_wall.yy",},},
     {"id":{"name":"obj_levelcomplete","path":"objects/obj_levelcomplete/obj_levelcomplete.yy",},},

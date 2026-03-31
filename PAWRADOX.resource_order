@@ -54,6 +54,7 @@
     {"name":"obj_fadeout","order":1,"path":"objects/obj_fadeout/obj_fadeout.yy",},
     {"name":"obj_flingbox","order":3,"path":"objects/obj_flingbox/obj_flingbox.yy",},
     {"name":"obj_flyingcats","order":1,"path":"objects/obj_flyingcats/obj_flyingcats.yy",},
+    {"name":"obj_fullscreen","order":7,"path":"objects/obj_fullscreen/obj_fullscreen.yy",},
     {"name":"obj_lazer_wall","order":2,"path":"objects/obj_lazer_wall/obj_lazer_wall.yy",},
     {"name":"obj_levelcomplete","order":4,"path":"objects/obj_levelcomplete/obj_levelcomplete.yy",},
     {"name":"obj_levelselect","order":2,"path":"objects/obj_levelselect/obj_levelselect.yy",},
