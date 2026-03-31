@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"vc_level_13",
+  "audioGroupId":{
+    "name":"audiogroup1",
+    "path":"audiogroups/audiogroup1",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":8.855987,
+  "exportDir":"",
+  "name":"vc_level_13",
+  "parent":{
+    "name":"voice",
+    "path":"folders/Sounds/voice.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"vc_level_13.mp3",
+  "volume":1.0,
+}

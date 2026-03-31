@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"vc_curse_you",
+  "audioGroupId":{
+    "name":"audiogroup1",
+    "path":"audiogroups/audiogroup1",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":5.8320184,
+  "exportDir":"",
+  "name":"vc_curse_you",
+  "parent":{
+    "name":"voice",
+    "path":"folders/Sounds/voice.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"vc_curse_you.mp3",
+  "volume":1.0,
+}

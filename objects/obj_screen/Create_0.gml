@@ -8,8 +8,7 @@ function do_pausestuff(){
 	if (global.paused){
 	    global.paused = false;
 		instance_destroy(obj_button_exitlevel);	
-	}
-	else{
+	} else {
 		global.paused = true;
 		drawit = true;
 

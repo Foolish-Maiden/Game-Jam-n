@@ -5,7 +5,7 @@ with (dragid){
 
 if (mouse_check_button_released(mb_left)){
 	with (dragid) {
-		if place_meeting(x, y, obj_par_block_placements) || x < 250 || x > room_width || y > room_height - 100 || y < 0 {
+		if place_meeting(x, y, obj_par_block_placements) || x < 250 || x > room_width || y < 0 {
 			x = other.init_x
 			y = other.init_y
 			audio_play_sound(sfx_delete,1,0);

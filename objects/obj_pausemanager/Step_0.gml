@@ -8,9 +8,9 @@ if (global.paused){
 	}
 	
 	instance_activate_object(obj_button_exitlevel);
-}
-else
+} else {
 	instance_activate_all();
+}
 
 
 if (room != room_levelselect && room != room_titlescreen && room != room_credits && global.levelcomplete = false){
