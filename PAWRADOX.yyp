@@ -104,6 +104,7 @@
     {"id":{"name":"obj_switch_color_manager","path":"objects/obj_switch_color_manager/obj_switch_color_manager.yy",},},
     {"id":{"name":"obj_switch","path":"objects/obj_switch/obj_switch.yy",},},
     {"id":{"name":"obj_titlescreen","path":"objects/obj_titlescreen/obj_titlescreen.yy",},},
+    {"id":{"name":"obj_voice_disable_button","path":"objects/obj_voice_disable_button/obj_voice_disable_button.yy",},},
     {"id":{"name":"room_bossfight","path":"rooms/room_bossfight/room_bossfight.yy",},},
     {"id":{"name":"room_credits","path":"rooms/room_credits/room_credits.yy",},},
     {"id":{"name":"room_init","path":"rooms/room_init/room_init.yy",},},

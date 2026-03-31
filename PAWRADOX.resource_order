@@ -72,6 +72,7 @@
     {"name":"obj_startpoint","order":5,"path":"objects/obj_startpoint/obj_startpoint.yy",},
     {"name":"obj_switch_color_manager","order":5,"path":"objects/obj_switch_color_manager/obj_switch_color_manager.yy",},
     {"name":"obj_switch","order":1,"path":"objects/obj_switch/obj_switch.yy",},
+    {"name":"obj_voice_disable_button","order":7,"path":"objects/obj_voice_disable_button/obj_voice_disable_button.yy",},
     {"name":"room_bossfight","order":8,"path":"rooms/room_bossfight/room_bossfight.yy",},
     {"name":"room_credits","order":4,"path":"rooms/room_credits/room_credits.yy",},
     {"name":"room_init","order":1,"path":"rooms/room_init/room_init.yy",},

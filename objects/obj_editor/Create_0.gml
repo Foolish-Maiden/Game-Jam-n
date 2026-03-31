@@ -58,7 +58,13 @@ if (room == room_puzzle_1){
 
 if (room == room_puzzle_2){
 	editor_addobject(obj_flingbox, spr_box_editoricon, 2);
-	villain_taunttext1 = "You fool! That previous\npuzzle was merely a\ndistraction! Try to beat\nthis!";
+	villain_taunttext1 = "What? You used the cat\nlaunchers to launch yourself\ninto the next room?\n" +
+	"..." + 
+	"Well, no matter! For you see, \nAgent Kitty, those cat\nlaunchers can only take you\nin a straight line.\n" +
+	"That is why I placed WALLS\nbetween you, and the exit!\nNyeh heh heh heh!";
+	
+	textspeed = 4;
+	voice_audio = vc_level_2;
 }
 
 if (room == room_puzzle_3){
@@ -174,4 +180,5 @@ end_testing = function() {
 }
 
 current_villain_taunttext = villain_taunttext1;
-audio_play_sound(voice_audio, 1, 0);
+if (global.voice_enable)
+	audio_play_sound(voice_audio, 1, 0);

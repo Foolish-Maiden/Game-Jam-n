@@ -3,6 +3,7 @@ global.LevelDoneStatus = [];
 ini_open("SaveFile.ini")
 //load options
 global.volume = ini_read_real("Options", "Volume", 100);
+global.voice_enable = ini_read_real("Options", "Voice", 1);
 
 //load level completion
 for (var i = 0; i < 24; i += 1)

@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":5.6640134,
+  "duration":20.135986,
   "exportDir":"",
   "name":"vc_level_2",
   "parent":{

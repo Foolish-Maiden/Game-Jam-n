@@ -29,6 +29,7 @@ if (place_meeting(x, y, obj_cat) && opened){
 			instance_create(x,y,obj_poof);
 			instance_destroy();
 		}
+		audio_stop_sound(obj_editor.voice_audio);
 	}
 
 	leveloutro = true;
