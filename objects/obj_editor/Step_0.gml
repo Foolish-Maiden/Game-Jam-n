@@ -40,12 +40,18 @@ if (mouse_check_button_pressed(mb_left) && mouse_x > 1366-100 && mouse_x < 1366+
 			
 	if (!global.testing){
 		with instance_create(obj_startpoint.x,obj_startpoint.y,obj_cat)
+			if (instance_exists(obj_fragbox)){
+				obj_fragbox.alarm[0] = 1;
+			}
 			movement_direction = obj_startpoint.shoot_angle;
 		
 		global.testing = true;
 		audio_play_sound(sfx_play,1,0);
 	}
 	else{
+		if (instance_exists(obj_fragbox)){
+				obj_fragbox.alarm[0] = 1;
+			}
 		if (room != room_puzzle_tutorial1 && room != room_puzzle_tutorial2)
 			end_testing();
 	}
@@ -58,6 +64,9 @@ if (global.testing && instance_exists(obj_cat)){
 				other.end_testing()
 			}
 			instance_destroy()
+			if (instance_exists(obj_fragbox)){
+				obj_fragbox.alarm[0] = 1;
+			}
 		}
 	}
 }

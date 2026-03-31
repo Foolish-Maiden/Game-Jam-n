@@ -19,7 +19,7 @@ else
 	draw_sprite(spr_villainhead, 0 ,0,0);
 
 draw_sprite(spr_playerhead,0,0,550);
-draw_text(20,200,real_taunttext);
+draw_text(20,200+tutoffset,real_taunttext);
 
 if (room == room_puzzle_tutorial1 || room == room_puzzle_tutorial2){
 	if (text_i > string_length(current_villain_taunttext) && current_villain_taunttext != villain_taunttext99 && current_villain_taunttext != villain_taunttext4 && current_villain_taunttext != villain_taunttext3)

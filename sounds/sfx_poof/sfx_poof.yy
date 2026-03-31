@@ -7,10 +7,10 @@
   },
   "bitDepth":1,
   "channelFormat":0,
-  "compression":0,
-  "compressionQuality":4,
+  "compression":1,
+  "compressionQuality":0,
   "conversionMode":0,
-  "duration":1.8461452,
+  "duration":1.8461678,
   "exportDir":"",
   "name":"sfx_poof",
   "parent":{
@@ -20,7 +20,7 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
+  "sampleRate":22050,
   "soundFile":"sfx_poof.wav",
   "volume":1.0,
 }

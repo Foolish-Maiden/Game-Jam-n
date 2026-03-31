@@ -24,6 +24,8 @@ for (var i = 0; i < array_length(room_array); i++)
 		draw_set_colour(c_green);
 	else
 		draw_set_colour(c_white);
+	if (i == hovernumber)
+		draw_set_colour(c_gray);
 
 		
 	draw_text(drawx+30, drawy + 70, name_array[i]);
