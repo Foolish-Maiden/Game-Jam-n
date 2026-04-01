@@ -8,7 +8,7 @@ add_dialog("Oh you uh... Agent Kitty, you beat that... final trap, that final pu
 add_dialog("Um... ah... well you see, I had planned to use my large evil robot of doomitude on you but uh-")
 add_dialog("it's not finished yet so uh... yeah, I guess... I guess that's it, you win.")
 add_dialog("Foiled yet again...")
-add_dialog("CURSE YOU AGENT KITTYYYYYYYYYYYYYY-")
+add_dialog("CURSE YOU AGENT KITTYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY-")
 
 	
 function add_dialog(text){
