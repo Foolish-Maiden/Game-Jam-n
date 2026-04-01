@@ -150,6 +150,7 @@
     {"id":{"name":"mu_titlescreen","path":"sounds/mu_titlescreen/mu_titlescreen.yy",},},
     {"id":{"name":"mus_bossfight","path":"sounds/mus_bossfight/mus_bossfight.yy",},},
     {"id":{"name":"sfx_delete","path":"sounds/sfx_delete/sfx_delete.yy",},},
+    {"id":{"name":"sfx_empty","path":"sounds/sfx_empty/sfx_empty.yy",},},
     {"id":{"name":"sfx_eviltalk","path":"sounds/sfx_eviltalk/sfx_eviltalk.yy",},},
     {"id":{"name":"sfx_explode","path":"sounds/sfx_explode/sfx_explode.yy",},},
     {"id":{"name":"sfx_levelcomplete","path":"sounds/sfx_levelcomplete/sfx_levelcomplete.yy",},},

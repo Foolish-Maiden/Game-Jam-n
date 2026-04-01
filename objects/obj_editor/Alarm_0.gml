@@ -8,7 +8,11 @@ if (text_i <= string_length(current_villain_taunttext))
 		speed_offset = 7
 	}
 	if (next_char != " ") {
-		audio_play_sound(sfx_eviltalk,1, false, 0.2, 0, random_range(0.25, 0.35));
+		if (room == room_puzzle_tutorial1 || room == room_puzzle_tutorial2 || !global.voice_enable)
+			audio_play_sound(sfx_eviltalk,1, false, 1, 0, random_range(0.25, 0.35));
+			
+		if (global.voice_enable && room != room_puzzle_tutorial1 && room != room_puzzle_tutorial2)
+			audio_play_sound(sfx_eviltalk, 0.2, false, 1, 0, random_range(0.25, 0.35));
 	}
     real_taunttext += next_char;
 	text_i++;
