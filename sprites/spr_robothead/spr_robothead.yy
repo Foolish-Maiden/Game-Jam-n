@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_robothead",
   "bboxMode":0,
-  "bbox_bottom":177,
+  "bbox_bottom":176,
   "bbox_left":0,
   "bbox_right":249,
   "bbox_top":0,
