@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_robothead",
   "bboxMode":0,
-  "bbox_bottom":255,
+  "bbox_bottom":177,
   "bbox_left":0,
-  "bbox_right":255,
+  "bbox_right":249,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":256,
+  "height":178,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"64aebc0f-368f-454e-94ac-e68e21fbbd1c","blendMode":0,"displayName":"default","isLocked":false,"name":"64aebc0f-368f-454e-94ac-e68e21fbbd1c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":256,
+  "width":250,
 }

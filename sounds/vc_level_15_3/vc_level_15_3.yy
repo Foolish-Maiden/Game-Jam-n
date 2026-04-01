@@ -1,18 +1,18 @@
 {
   "$GMSound":"v2",
-  "%Name":"vc_level_15_or_boss",
+  "%Name":"vc_level_15_3",
   "audioGroupId":{
-    "name":"audiogroup1",
-    "path":"audiogroups/audiogroup1",
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "channelFormat":0,
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":26.592018,
+  "duration":9.312018,
   "exportDir":"",
-  "name":"vc_level_15_or_boss",
+  "name":"vc_level_15_3",
   "parent":{
     "name":"voice",
     "path":"folders/Sounds/voice.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"vc_level_15_or_boss.mp3",
+  "soundFile":"vc_level_15_3.mp3",
   "volume":1.0,
 }

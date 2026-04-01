@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"vc_level_9",
+  "%Name":"vc_level_15_1",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":12.072018,
+  "duration":8.375986,
   "exportDir":"",
-  "name":"vc_level_9",
+  "name":"vc_level_15_1",
   "parent":{
     "name":"voice",
     "path":"folders/Sounds/voice.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"vc_level_9.mp3",
+  "soundFile":"vc_level_15_1.mp3",
   "volume":1.0,
 }
