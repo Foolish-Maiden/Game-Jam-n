@@ -1,3 +1,4 @@
+audio_stop_all();
 text_array = []
 aud_array = []
 real_taunttext = "";
