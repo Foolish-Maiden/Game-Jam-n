@@ -77,7 +77,7 @@ if (room == room_puzzle_3){
 if (room == room_puzzle_4){
 	editor_addobject(obj_flingbox, spr_box_editoricon, 2);
 	textspeed = 3;
-	villain_taunttext1 = "Behold, Agent Kitty! My evil \nLASER BEAMS! \nThe only way you can ever \nshut off the laser beams is \nby running into them at \nincredibly high speeds!";
+	villain_taunttext1 = "Behold, Agent Kitty! My evil \nLASER BEAMS! \nThe only way you can ever \nshut off the laser beams is \nby running into the buttons at \nincredibly high speeds!";
 	voice_audio = vc_level_4
 }
 
@@ -174,7 +174,7 @@ if (room == room_puzzle_14){
 if (room == room_puzzle_tutorial1){
 	editor_addobject(obj_flingbox, spr_box_editoricon, 1);
 	villain_taunttext1 = "Welcome to training\nsoftware 1.3.2!";
-	villain_taunttext2 = "The first part of\nyou're training is\nblock construction";
+	villain_taunttext2 = "The first part of\nyour training is\nblock construction";
 	villain_taunttext3 = "Try dragging the\nBox into the outlined spot";
 	villain_taunttext99 = "Wrong.\ndrag the box into the\noutlined spot";
 	villain_taunttext100 = "Correct!";
