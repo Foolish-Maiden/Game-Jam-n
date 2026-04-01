@@ -48,7 +48,7 @@ if (room == room_puzzle_1){
 	editor_addobject(obj_flingbox, spr_box_editoricon, 1);
 	villain_taunttext1 = "Ah yes Agent Kitty! How\nunexpected!" +
 	"\nAnd by unexpected i mean\n...\nunexpected. " + 
-	"I just done\nmoving into this new secret\nlair. I assumed you'd be here\nlater on... " +
+	"I just started\nmoving into this new secret\nlair. I assumed you'd be here\nlater on... " +
 	"Well no matter!\nI still have plenty of\nevil traps layed out for you!\nEven though my\ncat-" + 
 	"launchers are still \nin the boxes..."
 	
@@ -92,7 +92,7 @@ if (room == room_puzzle_6){
 	editor_addobject(obj_flingbox, spr_box_editoricon, 2);
 	editor_addobject(obj_spinnerbox_right, spr_spinnerbox_right_editoricon, 1);
 	textspeed = 3;
-	villain_taunttext1 = "I built some machines to\nbring the boxes around for\nme, but for some reason\nthey just rotate 90 degrees\nwhenever I kick them...\nanyway, this room doesn't\nhave enough boxes in \nit for you to escape!\nHAHAHAHA";
+	villain_taunttext1 = "I built some machines to\nbring the boxes around for\nme, but for some reason\nthey just rotate 90 degrees\nwhenever I kick them...\nanyway, this room doesn't\nhave enough boxes in \nit for you to escape!\Nyeh heh heh heh!";
 	voice_audio = vc_level_6
 }
 
@@ -177,7 +177,7 @@ if (room == room_puzzle_tutorial1){
 	villain_taunttext2 = "The first part of\nyour training is\nblock construction";
 	villain_taunttext3 = "Try dragging the\nBox into the outlined spot";
 	villain_taunttext99 = "Wrong.\ndrag the box into the\noutlined spot";
-	villain_taunttext100 = "Correct!";
+	villain_taunttext100 = "Correct";
 	villain_taunttext4 = "Now press the play\nbutton";
 	villain_taunttextlevel1_to_2 = "TRAINING PT 1: COMPLETE\nLoading next course...";
 }
@@ -188,7 +188,7 @@ if (room == room_puzzle_tutorial2){
 	villain_taunttext2 = "You may need to\nrotate in your\nadventure";
 	villain_taunttext3 = "Try placing and\nright clicking the\nbox to face down";
 	villain_taunttext99 = "Wrong.\nPlace and right\nclick the box to\nface down";
-	villain_taunttext100 = "Correct you smart";
+	villain_taunttext100 = "Correct";
 	villain_taunttext4 = "Now press the play\nbutton";
 	villain_taunttextlevel2_to_3 = "TRAINING COMPLETE\nGoodbye!";
 }
