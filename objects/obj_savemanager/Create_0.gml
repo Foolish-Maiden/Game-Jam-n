@@ -23,8 +23,13 @@ function scr_savelevel_progress(){
 	var puzzlenumber = string_replace_all(roomname, "room_puzzle_", "");
 	
 	ini_open("SaveFile.ini")
-	global.LevelDoneStatus[puzzlenumber - 1] = 1;
-	ini_write_real("Complete Status", "Level " + puzzlenumber, 1)
+	if (room != room_fakeout_boss){
+		global.LevelDoneStatus[puzzlenumber - 1] = 1;
+		ini_write_real("Complete Status", "Level " + puzzlenumber, 1)
+	}
+	else
+		ini_write_real("Complete Status", "Level " + "15", 1)
+		
 	ini_close();
 
 }

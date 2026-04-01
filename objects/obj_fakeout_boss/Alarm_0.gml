@@ -14,4 +14,3 @@ if (text_i <= string_length(array_get(text_array, text_select)))
 	text_i++;
 	alarm[0] = textspeed + speed_offset;
 }
-
