@@ -4,3 +4,4 @@ image_xscale = random_range(0.2,1);
 image_yscale = image_xscale;
 
 spd = image_xscale*7;
+depth = 52
