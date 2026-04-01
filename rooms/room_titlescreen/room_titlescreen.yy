@@ -23,7 +23,7 @@
         {"name":"g_FractalNoiseSpeed","type":0,"value":"0.5",},
         {"name":"g_FractalNoiseTintColour","type":1,"value":"#FF7F7F7F",},
         {"name":"g_FractalNoiseTexture","type":2,"value":"_filter_fractal_noise_texture",},
-      ],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_tempbg","path":"sprites/spr_tempbg/spr_tempbg.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+      ],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_titlebg","path":"sprites/spr_titlebg/spr_titlebg.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"room_titlescreen",
   "parent":{

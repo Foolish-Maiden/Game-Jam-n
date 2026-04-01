@@ -59,7 +59,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.212",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"pawradox",
   "resources":[
@@ -74,6 +74,7 @@
     {"id":{"name":"obj_cat","path":"objects/obj_cat/obj_cat.yy",},},
     {"id":{"name":"obj_clonebox_clone2","path":"objects/obj_clonebox_clone2/obj_clonebox_clone2.yy",},},
     {"id":{"name":"obj_clonebox","path":"objects/obj_clonebox/obj_clonebox.yy",},},
+    {"id":{"name":"obj_complete_fade","path":"objects/obj_complete_fade/obj_complete_fade.yy",},},
     {"id":{"name":"obj_credits_button","path":"objects/obj_credits_button/obj_credits_button.yy",},},
     {"id":{"name":"obj_credits","path":"objects/obj_credits/obj_credits.yy",},},
     {"id":{"name":"obj_deletesave","path":"objects/obj_deletesave/obj_deletesave.yy",},},
@@ -82,6 +83,7 @@
     {"id":{"name":"obj_endlevel_bg","path":"objects/obj_endlevel_bg/obj_endlevel_bg.yy",},},
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},},
     {"id":{"name":"obj_fadeout","path":"objects/obj_fadeout/obj_fadeout.yy",},},
+    {"id":{"name":"obj_fakeout_boss","path":"objects/obj_fakeout_boss/obj_fakeout_boss.yy",},},
     {"id":{"name":"obj_flingbox","path":"objects/obj_flingbox/obj_flingbox.yy",},},
     {"id":{"name":"obj_flyingcats","path":"objects/obj_flyingcats/obj_flyingcats.yy",},},
     {"id":{"name":"obj_fullscreen","path":"objects/obj_fullscreen/obj_fullscreen.yy",},},
@@ -110,6 +112,7 @@
     {"id":{"name":"obj_voice_disable_button","path":"objects/obj_voice_disable_button/obj_voice_disable_button.yy",},},
     {"id":{"name":"room_bossfight","path":"rooms/room_bossfight/room_bossfight.yy",},},
     {"id":{"name":"room_credits","path":"rooms/room_credits/room_credits.yy",},},
+    {"id":{"name":"room_fakeout_boss","path":"rooms/room_fakeout_boss/room_fakeout_boss.yy",},},
     {"id":{"name":"room_init","path":"rooms/room_init/room_init.yy",},},
     {"id":{"name":"room_levelselect","path":"rooms/room_levelselect/room_levelselect.yy",},},
     {"id":{"name":"room_puzzle_1","path":"rooms/room_puzzle_1/room_puzzle_1.yy",},},
@@ -140,6 +143,7 @@
     {"id":{"name":"mus_bossfight","path":"sounds/mus_bossfight/mus_bossfight.yy",},},
     {"id":{"name":"sfx_delete","path":"sounds/sfx_delete/sfx_delete.yy",},},
     {"id":{"name":"sfx_eviltalk","path":"sounds/sfx_eviltalk/sfx_eviltalk.yy",},},
+    {"id":{"name":"sfx_explode","path":"sounds/sfx_explode/sfx_explode.yy",},},
     {"id":{"name":"sfx_levelcomplete","path":"sounds/sfx_levelcomplete/sfx_levelcomplete.yy",},},
     {"id":{"name":"sfx_play","path":"sounds/sfx_play/sfx_play.yy",},},
     {"id":{"name":"sfx_poof","path":"sounds/sfx_poof/sfx_poof.yy",},},
@@ -245,6 +249,7 @@
     {"roomId":{"name":"room_puzzle_13","path":"rooms/room_puzzle_13/room_puzzle_13.yy",},},
     {"roomId":{"name":"room_puzzle_14","path":"rooms/room_puzzle_14/room_puzzle_14.yy",},},
     {"roomId":{"name":"room_puzzle_15","path":"rooms/room_puzzle_15/room_puzzle_15.yy",},},
+    {"roomId":{"name":"room_fakeout_boss","path":"rooms/room_fakeout_boss/room_fakeout_boss.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

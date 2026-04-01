@@ -1,0 +1,1 @@
+room_fadeto(room_credits);
