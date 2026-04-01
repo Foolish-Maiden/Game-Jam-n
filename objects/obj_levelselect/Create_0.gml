@@ -22,7 +22,15 @@ add_level(room_puzzle_11, spr_level_icon, "Level 11");
 add_level(room_puzzle_12, spr_level_icon, "Level 12");
 add_level(room_puzzle_13, spr_level_icon, "Level 13");
 add_level(room_puzzle_14, spr_level_icon, "Level 14");
-add_level(room_fakeout_boss, spr_level_icon, "BOSS FIGHT");
+
+//add boss if all done
+for (var i = 0; i < 14; i++){
+    if (global.LevelDoneStatus[i] == 1){
+        add_level(room_fakeout_boss, spr_level_icon, "BOSS FIGHT");
+        break;
+    }
+}
+
 
 function add_level(_level, icon, name){
 	array_push(room_array, _level);

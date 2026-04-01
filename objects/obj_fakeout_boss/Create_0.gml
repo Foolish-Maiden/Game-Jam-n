@@ -10,6 +10,7 @@ add_dialog("it's not finished yet so uh... yeah, I guess... I guess that's it, y
 add_dialog("Foiled yet again...")
 add_dialog("CURSE YOU AGENT KITTYYYYYYYYYYYYYY-")
 
+	
 function add_dialog(text){
 	array_push(text_array, text)	
 }
