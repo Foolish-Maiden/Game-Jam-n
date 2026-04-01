@@ -176,6 +176,7 @@
     {"id":{"name":"spr_clonebox_clone2","path":"sprites/spr_clonebox_clone2/spr_clonebox_clone2.yy",},},
     {"id":{"name":"spr_clonebox_editoricon","path":"sprites/spr_clonebox_editoricon/spr_clonebox_editoricon.yy",},},
     {"id":{"name":"spr_clonebox_up","path":"sprites/spr_clonebox_up/spr_clonebox_up.yy",},},
+    {"id":{"name":"spr_credit_button","path":"sprites/spr_credit_button/spr_credit_button.yy",},},
     {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},},
     {"id":{"name":"spr_dabestestboi_cat","path":"sprites/spr_dabestestboi_cat/spr_dabestestboi_cat.yy",},},
     {"id":{"name":"spr_dabestestboi_dog","path":"sprites/spr_dabestestboi_dog/spr_dabestestboi_dog.yy",},},
