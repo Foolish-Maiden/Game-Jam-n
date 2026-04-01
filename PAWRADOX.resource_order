@@ -102,6 +102,7 @@
     {"name":"mu_titlescreen","order":1,"path":"sounds/mu_titlescreen/mu_titlescreen.yy",},
     {"name":"mus_bossfight","order":5,"path":"sounds/mus_bossfight/mus_bossfight.yy",},
     {"name":"sfx_delete","order":2,"path":"sounds/sfx_delete/sfx_delete.yy",},
+    {"name":"sfx_empty","order":6,"path":"sounds/sfx_empty/sfx_empty.yy",},
     {"name":"sfx_eviltalk","order":3,"path":"sounds/sfx_eviltalk/sfx_eviltalk.yy",},
     {"name":"sfx_explode","order":5,"path":"sounds/sfx_explode/sfx_explode.yy",},
     {"name":"sfx_levelcomplete","order":5,"path":"sounds/sfx_levelcomplete/sfx_levelcomplete.yy",},

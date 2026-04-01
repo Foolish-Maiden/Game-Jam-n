@@ -20,7 +20,7 @@ drawy = view_get_hport(view_camera[0])-60;
 VillainHeadEmote = HeadEmote.Normal;
 PlayerHeadEmote = HeadEmote.Normal;
 boxtouched_count = 0;
-voice_audio = vc_level_1;
+voice_audio = sfx_empty;
 
 #region text
 current_villain_taunttext = "";
@@ -176,7 +176,7 @@ if (room == room_puzzle_tutorial1){
 	villain_taunttext1 = "Welcome to training\nsoftware 1.3.2!";
 	villain_taunttext2 = "The first part of\nyou're training is\nblock construction";
 	villain_taunttext3 = "Try dragging the\nBox into the outlined spot";
-	villain_taunttext99 = "Wrong Dumbass.\ndrag the box into the\noutlined spot";
+	villain_taunttext99 = "Wrong.\ndrag the box into the\noutlined spot";
 	villain_taunttext100 = "Correct!";
 	villain_taunttext4 = "Now press the play\nbutton";
 	villain_taunttextlevel1_to_2 = "TRAINING PT 1: COMPLETE\nLoading next course...";
@@ -185,10 +185,10 @@ if (room == room_puzzle_tutorial1){
 if (room == room_puzzle_tutorial2){ 
 	editor_addobject(obj_flingbox, spr_box_editoricon, 1);
 	villain_taunttext1 = "Rotating";
-	villain_taunttext2 = "You may need to\nrotate sometimes!!";
+	villain_taunttext2 = "You may need to\nrotate in your\nadventure";
 	villain_taunttext3 = "Try placing and\nright clicking the\nbox to face down";
-	villain_taunttext99 = "Wrong you dumbass.\nPlace and right\nclick the box to\nface down";
-	villain_taunttext100 = "Corrent you smart";
+	villain_taunttext99 = "Wrong.\nPlace and right\nclick the box to\nface down";
+	villain_taunttext100 = "Correct you smart";
 	villain_taunttext4 = "Now press the play\nbutton";
 	villain_taunttextlevel2_to_3 = "TRAINING COMPLETE\nGoodbye!";
 }
