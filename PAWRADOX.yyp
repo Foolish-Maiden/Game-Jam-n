@@ -63,7 +63,10 @@
     {"link":"io.gamemaker.gm_filter_linear_blur-1.0.0","name":"io.gamemaker.gm_filter_linear_blur-1.0.0","path":"io.gamemaker.gm_filter_linear_blur-1.0.0.yyp",},
     {"link":"io.gamemaker.gm_filter_vignette-1.0.0","name":"io.gamemaker.gm_filter_vignette-1.0.0","path":"io.gamemaker.gm_filter_vignette-1.0.0.yyp",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"bad game idea.mp4","CopyToMask":-1,"filePath":"datafiles","name":"bad game idea.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"bad scheme idea.mp4","CopyToMask":-1,"filePath":"datafiles","name":"bad scheme idea.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
